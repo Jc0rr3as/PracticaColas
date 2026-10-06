@@ -4,7 +4,7 @@ package Validaciones;
 public class validaciones {
     public int ValidarEntero(Scanner sc) {
         while (!sc.hasNextInt()) {
-            System.out.println("Por favor Ingrese un digito nuerico");
+            System.out.println("Por favor Ingrese un digito numerico");
             sc.next();
         }
         return sc.nextInt();
@@ -12,7 +12,7 @@ public class validaciones {
 
     public Double ValidarDecimal(Scanner sc) {
         while (!sc.hasNextDouble()) {
-            System.out.println("Por favor Ingrese un digito nuerico");
+            System.out.println("Por favor Ingrese un digito numerico");
             sc.next();
         }
         return sc.nextDouble();

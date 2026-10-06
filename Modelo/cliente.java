@@ -6,7 +6,8 @@ public class cliente {
     private String edad;
     private String atencionEspecial;
     private int turno;
-    private String estado;
+    private int turnoEspecial;
+    public String estado;
 
     public cliente() {
         
@@ -58,6 +59,14 @@ public class cliente {
 
     public void setTurno(int turno) {
         this.turno = turno;
+    }
+
+    public int getTurnoEspecial() {
+        return turnoEspecial;
+    }
+
+    public void setTurnoEspecial(int turnoEspecial) {
+        this.turnoEspecial = turnoEspecial;
     }
 
     public String getEstado() {
